@@ -1,5 +1,7 @@
 # 프로그래머스 - 옹알이(1)
 # https://school.programmers.co.kr/learn/courses/30/lessons/120956
+from itertools import permutations
+all = []
 def solution(babbling):
     answer = 0
     a = ["aya", "ye", "woo", "ma" ]
